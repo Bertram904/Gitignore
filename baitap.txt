@@ -1,0 +1,21 @@
+ Tìm hiểu về gitignore.
+
+- Tệp tin là một phần quan trọng của hệ thống quản lý mac nguồn Git 
+được sử dụng để chỉ định các tệp tin và thư mục mà Git nên bỏ qua (ignore) 
+khi theo dõi thay đổi trong dự án của bạn.
+
+- Cách sử dụng: Tạo một tệp tin có tên là .gitignore ở cấp độ cao nhất của dự án hoặc trong các thư mục cụ thể. Bạn có thể thêm các quy tắc ignore vào tệp tin này.
+Cú pháp: Mỗi dòng trong tệp tin .gitignore đại diện cho một quy tắc ignore. Bạn có thể sử dụng các mẫu hoặc đường dẫn cụ thể. Để bỏ qua tất cả các tệp có đuôi .log, bạn có thể thêm dòng sau:
+- Ký tự đặc biệt: Bạn có thể sử dụng ký tự đặc biệt như * (đại diện cho bất kỳ chuỗi ký tự nào), ? (đại diện cho một ký tự), và ! (để bỏ qua một quy tắc ignore).
+
+- Thư mục và tệp cụ thể: Bạn có thể bỏ qua toàn bộ thư mục hoặc tệp cụ thể bằng cách chỉ định đường dẫn.
+
+- Kích thước tệp tin: Bạn có thể bỏ qua các tệp tin với kích thước lớn bằng cách sử dụng *.zip trong tệp tin .gitignore.
+
+- Sử dụng Gitignore.io: Đây là một công cụ trực tuyến giúp bạn tạo nhanh chóng các tệp tin .gitignore cho các môi trường phát triển cụ thể, ngôn ngữ lập trình, hệ điều hành, và nhiều hơn nữa.
+
+- Quy tắc Gitignore Global:
+
+  Bạn có thể cấu hình Git để sử dụng một tệp tin .gitignore toàn cầu, áp dụng cho tất cả các dự án trên máy tính của bạn.
+
+- Tệp tin .gitignore giúp duy trì sự sạch sẽ và tổ chức trong repository của bạn bằng cách loại bỏ những tệp không cần thiết khỏi quá trình theo dõi và phiên bản hóa.
